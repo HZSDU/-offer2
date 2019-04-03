@@ -8,4 +8,4 @@
    2. 它必须自行创建这个实例；
    3. 它必须自行向整个体统提供这个实例。
 四、结构
-![image](https://github.com/HZSDU/-offer2/image/Singleton Pattern.png)
+![image](https://github.com/HZSDU/-offer2/blob/master/image/Singleton%20Pattern.png)
