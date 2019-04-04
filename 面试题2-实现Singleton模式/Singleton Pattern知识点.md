@@ -19,8 +19,10 @@
 
 六、考虑是否线程安全  
 1）线程不安全   
-当执行多线程时会分别建立一个实例。 
-![image](https://github.com/HZSDU/-offer2/blob/master/image/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8D%E5%8F%AF%E8%A1%8C.png)  
-2）线程安全
+当执行多线程时会分别建立一个实例。   
+![image](https://github.com/HZSDU/-offer2/blob/master/image/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8D%E5%8F%AF%E8%A1%8C.png)   
+
+2）线程安全  
 不管同步执行几个线程都只会建立一个实例。
+
 
