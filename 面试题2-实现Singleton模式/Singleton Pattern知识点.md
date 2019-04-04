@@ -11,4 +11,9 @@
    
 四、结构  
 
-![image](https://github.com/HZSDU/-offer2/blob/master/image/Singleton%20Pattern.png)
+![image](https://github.com/HZSDU/-offer2/blob/master/image/Singleton%20Pattern.png)  
+  
+五、实现的方法  
+1）懒汉单例模式：当第一次使用的时候才创建一个唯一的实例对象，属于时间换空间的方法；  
+
+2）饿汉单例模式：不管将来用不用，程序启动时就闯将一个唯一的实例对象，属于空间换时间的方法。  
