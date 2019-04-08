@@ -1,13 +1,13 @@
 /*
 Compiling environment: VS2015
 Date:2019-4-6
-User:HanSir
+Author:HanSir
 */
 /*
-ÌâÄ¿:ÕÒ³öÊý×éÖÐÖØ¸´µÄÊý×Ö£¨ÔÊÐí¸Ä±äÖ±½Ó¸Ä±äÔ­Êý×é£©
-	ÔÚÒ»¸ö³¤¶ÈÎª n µÄÊý×éÀïµÄËùÓÐÊý×Ö¶¼ÔÚ 0 - n~1 µÄ·¶Î§ÄÚ¡£Êý×éÖÐÄ³Ð©Êý×ÖÊÇÖØ¸´µÄ£¬µ«²»ÖªµÀÓÐ¼¸¸öÊý×ÖÖØ¸´ÁË£¬Ò²²»ÖªµÀÃ¿¸öÊý×Ö
-ÖØ¸´ÁË¼¸´Î¡£ÇëÕÒ³öÊý×éÖÐÈÎÒâÒ»¸öÖØ¸´µÄÊý×Ö¡£ÀýÈç£¬Èç¹ûÊäÈë³¤¶ÈÎª7µÄÊý×é{2£¬ 3£¬ 1£¬ 0£¬ 2£¬ 5£¬ 3}£¬ ÄÇÃ´¶ÔÓ¦µÄÊä³öµÄÖØ¸´µØÊý×Ö
-2»òÕß3¡£
+é¢˜ç›®:æ‰¾å‡ºæ•°ç»„ä¸­é‡å¤çš„æ•°å­—ï¼ˆå…è®¸æ”¹å˜ç›´æŽ¥æ”¹å˜åŽŸæ•°ç»„ï¼‰
+	åœ¨ä¸€ä¸ªé•¿åº¦ä¸º n çš„æ•°ç»„é‡Œçš„æ‰€æœ‰æ•°å­—éƒ½åœ¨ 0 - n~1 çš„èŒƒå›´å†…ã€‚æ•°ç»„ä¸­æŸäº›æ•°å­—æ˜¯é‡å¤çš„ï¼Œä½†ä¸çŸ¥é“æœ‰å‡ ä¸ªæ•°å­—é‡å¤äº†ï¼Œä¹Ÿä¸çŸ¥é“æ¯ä¸ªæ•°å­—
+é‡å¤äº†å‡ æ¬¡ã€‚è¯·æ‰¾å‡ºæ•°ç»„ä¸­ä»»æ„ä¸€ä¸ªé‡å¤çš„æ•°å­—ã€‚ä¾‹å¦‚ï¼Œå¦‚æžœè¾“å…¥é•¿åº¦ä¸º7çš„æ•°ç»„{2ï¼Œ 3ï¼Œ 1ï¼Œ 0ï¼Œ 2ï¼Œ 5ï¼Œ 3}ï¼Œ é‚£ä¹ˆå¯¹åº”çš„è¾“å‡ºçš„é‡å¤åœ°æ•°å­—
+2æˆ–è€…3ã€‚
 */
 
 #include <iostream>
@@ -27,7 +27,7 @@ int main()
 	vector<pair<int, int>> result = FindRepetitiveNumber(test, len);
 	for (auto c : result)
 	{
-		cout << "Êý×Ö "<< c.first << " ³öÏÖ " << c.second << " ´Î" << endl;
+		cout << "æ•°å­— "<< c.first << " å‡ºçŽ° " << c.second << " æ¬¡" << endl;
 	}
 	return 0;
 }
@@ -39,7 +39,7 @@ vector<pair<int, int>> FindRepetitiveNumber(vector<int> inputArray, int length)
 	{
 		if (inputArray[i] < 0 || inputArray[i] > length - 1)
 		{
-			cout << "Error£ºÊäÈëÓÐ´í, Çë×ÐÏ¸ÔÄ¶ÁÌâÄ¿!" << endl;
+			cout << "Errorï¼šè¾“å…¥æœ‰é”™, è¯·ä»”ç»†é˜…è¯»é¢˜ç›®!" << endl;
 			return result;
 		}		
 	}
