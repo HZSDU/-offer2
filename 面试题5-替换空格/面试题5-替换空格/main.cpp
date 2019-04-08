@@ -1,11 +1,11 @@
 /*
 Compiling environment: VS2015
 Date:2019-4-6
-User:HanSir
+Author:HanSir
 */
 /*
-��Ŀ:�滻�ո�
-	��ʵ��һ�����������ַ����е�ÿ���ո��滻�ɡ�%20�������磺���ַ���ΪWe Are Happy.�򾭹��滻֮����ַ���ΪWe%20Are%20Happy��
+题目:替换空格
+	请实现一个函数，把字符串中的每个空格替换成“%20”。例如：当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
 */
 #include <iostream>
 #include <string>
