@@ -1,10 +1,10 @@
 /*
 Compiling environment: VS2015
 Date:2019-4-1
-User:HanSir
+Author:HanSir
 */
 /*
-题目：如下为类型CMyString的声明，请为该类型添加赋值运算符函数
+棰樼洰锛氬涓嬩负绫诲瀷CMyString鐨勫０鏄庯紝璇蜂负璇ョ被鍨嬫坊鍔犺祴鍊艰繍绠楃鍑芥暟
 class CMyString
 {
 public:
